@@ -1,38 +1,107 @@
-.App {
-  text-align: center;
+*,
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "SUIT", "SUIT Variable";
+
+  --color-navy: #1a347c;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.app {
+  width: 21cm;
+  min-height: 29.7cm;
+  padding: 1.5cm 1.5cm 2cm 1.5cm;
+  font-weight: 200;
+  strong {
+    font-weight: 500;
+    color: var(--color-navy);
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  a {
+    color: rgba(20, 0, 150, 0.7);
+    text-decoration: none;
   }
-  to {
-    transform: rotate(360deg);
+  .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-size: 3.1rem;
+
+    .header-desc {
+      margin-right: 10px;
+      .header-desc-left {
+        display: flex;
+        position: relative;
+      }
+    }
+  }
+  .contact {
+    margin: 1rem 0 2rem;
+    font-size: 1.2rem;
+    text-align: right;
+    div:nth-child(n) {
+      margin-top: 20px;
+    }
+  }
+  .divider {
+    width: 100%;
+    height: 2px;
+    background-color: var(--color-navy);
+    margin: 2rem 0;
+  }
+  .thin-divider {
+    width: 100%;
+    height: 0.5px;
+    background-color: var(--color-navy);
+    margin: 2rem 0;
+  }
+  .content-wrap {
+    font-size: 2rem;
+    .content:nth-child(n) {
+      padding-bottom: 20px;
+      margin-top: 20px;
+    }
+    h3 {
+      font-weight: bold;
+    }
+    .content,
+    .nth-content {
+      h3:first-child {
+        margin-bottom: 1rem;
+      }
+    }
+    .content,
+    .sub-content {
+      p::before {
+        content: "\00B7";
+        margin: 0 0.3rem;
+      }
+      p {
+        margin-bottom: 0.8rem;
+      }
+    }
+    .nth-content {
+      padding-bottom: 20px;
+      margin-top: 20px;
+      h4 {
+        margin-top: 2rem;
+        font-weight: 450;
+      }
+      .exp-desc {
+        margin: 20px 0;
+        font-size: 1.6rem;
+      }
+      .sub-content {
+        margin: 20px 0;
+        h5 {
+          margin-bottom: 1rem;
+          font-size: 1.8rem;
+          font-weight: 400;
+        }
+        p:nth-child(n) {
+          margin-bottom: 0.8rem;
+          margin-left: 1rem;
+        }
+      }
+    }
   }
 }
