@@ -48,50 +48,53 @@ function App() {
             <strong>비즈니스의 궁극적인 지향점</strong>을 찾기 위해 노력합니다.
           </p>
           <p>5명 규모의 팀에서 일정 관리 및 업무 분배를 한 경험이 있습니다.</p>
-          <p>불편함을 줄이기 위해 자동화 기술을 도입하는 것을 좋아합니다.</p>
-        </div>
-        <div className="thin-divider" />
-        <div className="content">
-          <h3>Tech/Skills</h3>
-          <p>
-            <strong>Typescript</strong>, <strong>React</strong>, Next.js
-          </p>
-          <p>scss, styled, tailwind</p>
-          <p>Git, Jira, Confluence, Notion</p>
-          <p>Figma, PowerPoint</p>
         </div>
         <div className="thin-divider" />
         <div className="nth-content">
           <h3>Experience</h3>
-          <h4>래브라도랩스</h4>
-          <div className="exp-desc">
+          <h4>
+            래브라도랩스{" "}
             <a href="https://labradorlabs.ai" target="_blank">
               https://labradorlabs.ai
             </a>
-            <p>Frontend Developer / Manager</p>
-            <p>2021.06 - 현재</p>
+          </h4>
+          <div className="exp-desc">
+            <p>Frontend Developer / 2021.06 - 현재</p>
           </div>
           <div className="sub-content">
-            <h5>래브라도 프론트엔드 담당자</h5>
+            <h5>
+              래브라도 프론트엔드 담당자 <span>2022.01 - 현재</span>
+            </h5>
             <p>
-              제품의 SBOM, 취약점, 라이선스를 분석하기 위한 솔루션 래브라도에서
+              제품의 SBOM, 취약점, 라이선스를 분석하기 위한 솔루션인 래브라도의
+              메인 담당자로
               <br />
               기존 코드를 리팩토링하고 새로운 기능을 개발하고 있습니다.
             </p>
             <p>
-              안정적인 배포를 위해, main-trial-dev 형식의 브랜치 관리 방법을
-              도입했습니다.
+              공급사 관리를 위한 SCM 플랫폼을 기획하고 UI를 개발했습니다.{" "}
+              <a
+                href="http://www.boannews.com/media/view.asp?idx=132104"
+                target="_blank"
+              >
+                보도자료
+              </a>
             </p>
             <p>
               언어 번역 시 엑셀 형태의 번역 결과물과 코드 내부 json 파일을
               양방향으로 변환하기 위한 python tool을 개발했습니다.
             </p>
-            <p>정기 배포 13회(22년 4회, 23년 4회, 24년 5회)</p>
+            <p>
+              정기 배포 13회를 메인 담당자로 진행했습니다.(22년 4회, 23년 4회,
+              24년 5회)
+            </p>
             <p>사용 기술 : Typescript, React, yarn</p>
             <p>특이사항 : White Labeling 지원</p>
           </div>
           <div className="sub-content">
-            <h5>IVAS 프론트엔드 담당자</h5>
+            <h5>
+              IVAS 프론트엔드 담당자 <span>2023.03 - 2024.01</span>{" "}
+            </h5>
             <p>
               시스템 연동 분석 포탈 IVAS에서 고객사의 요구사항을 바탕으로 기능을
               추가하고 <br />
@@ -102,7 +105,9 @@ function App() {
             <p>특이사항 : monorepo 사용</p>
           </div>
           <div className="sub-content">
-            <h5>래브라도 & IVAS 기획 담당자</h5>
+            <h5>
+              래브라도 & IVAS 기획 담당자 <span>2021.09 - 현재</span>
+            </h5>
             <p>
               래브라도, IVAS에 기능 추가 시 요구사항을 분석하고 Figma를 통해
               UI를 기획했습니다.
@@ -113,6 +118,16 @@ function App() {
             </p>
             <p>사용 기술 : Figma, powerpoint, Confluence, notion</p>
           </div>
+        </div>
+        <div className="thin-divider" />
+        <div className="content">
+          <h3>Tech/Skills</h3>
+          <p>
+            <strong>Typescript</strong>, <strong>React</strong>, Next.js
+          </p>
+          <p>scss, styled, tailwind</p>
+          <p>Git, Jira, Confluence, Notion</p>
+          <p>Figma, PowerPoint</p>
         </div>
         <div className="thin-divider" />
         <div className="content">
