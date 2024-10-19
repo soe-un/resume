@@ -97,7 +97,7 @@ function App() {
               추가하고 <br />
               서비스 공통적으로 적용하기 위해 컴포넌트화 했습니다.
             </p>
-            <p>2개 고객사 담당(삼성카드, LG에너지솔루션)</p>
+            <p>2개 고객사를 담당했습니다.(삼성카드, LG에너지솔루션)</p>
             <p>사용 기술 : Typescript, Next.js, tailwind, yarn berry</p>
             <p>특이사항 : monorepo 사용</p>
           </div>
